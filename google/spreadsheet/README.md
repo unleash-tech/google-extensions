@@ -1,75 +1,65 @@
-# Unleash Assistant for Google Sheets
+# Unleash Assistant Integration for Google Sheets
 
-This Google Apps Script allows you to easily integrate Unleash AI assistants with Google Sheets, enabling you to process cell content through Unleash assistants directly from your spreadsheet.
+Effortlessly integrate Unleash AI assistants with Google Sheets using this Google Apps Script, enabling you to process cell content directly through Unleash's AI capabilities.
 
 ## Installation
 
-1. Copy the content of unleash-apps-script.js
-2. Open your Google Spreadsheet
-3. Go to `Extensions > Apps Script`
-4. Delete any existing code in the editor
-5. Copy and paste the entire script content into the editor
-6. Save the project (Ctrl/Cmd + S)
-7. Refresh your Google Spreadsheet
+1. Copy the content of `unleash-apps-script.js`.
+2. Open your Google Spreadsheet.
+3. Navigate to `Extensions > Apps Script`.
+4. Delete any pre-existing code in the script editor.
+5. Paste the copied script into the editor.
+6. Save the project (`Ctrl/Cmd + S`).
+7. Refresh your spreadsheet to complete the installation.
 
-## Setup
+## Configuration
 
-Before using the script, you need to configure your Unleash credentials:
+Before using the script, set up your Unleash credentials:
 
-1. Click on the new "Unleash" menu item in your spreadsheet
-2. Select "Setup"
-3. Enter your:
-   - Unleash Account
-   - Unleash API Key (generate one at app.unleash.so/settings/api-key)
+1. Click on the new "Unleash" option in the spreadsheet menu.
+2. Click on "Setup" from the dropdown menu.
+3. Input the following details:
+   - **Unleash Account**
+   - **Unleash API Key** (generate one at [Unleash API Key](https://app.unleash.so/settings/api-key))
 
-## Usage
-
-### Basic Operation
+## How to Use
 
 1. Select the cells you want to process
-2. Call the UNLEASH() function with the following arguments:
-   - Question Column (e.g., "A")
-   - Assistant ID (optional)
+2. Call the `UNLEASH()` function with the following arguments:
+   - **Question Column**: The column containing your questions (e.g., "A").
+   - **Assistant ID**: Optional parameter for specifying a specific assistant.
 
-### Features
+### Key Capabilities
 
-- **Batch Processing**: Process multiple cells at once
-- **Progress Tracking**: Monitor processing progress in real-time
-- **Error Handling**: Clear error messages if something goes wrong
+- **Process Multiple Cells**: Handle multiple cells in a single operation effortlessly.
+- **Error Notifications**: Receive detailed error messages to quickly identify and resolve issues.
 
-## Requirements
+## Prerequisites
 
-- An unleash account with API access
-- Google Sheets access
-- Script authorization (you'll be prompted on first use)
+To use the script, you’ll need:
 
-## Permissions
+- A valid Unleash account with an API key.
+- Access to Google Sheets.
+- Script authorization (prompted automatically on first use).
 
-The script requires the following permissions:
+## Required Permissions
 
-- Read/write access to your spreadsheet
-- Internet access (to communicate with Unleash API)
-- Script properties storage (to save your credentials)
+This script requires the following permissions to function:
 
-## Limitations
+- Access to read and modify spreadsheet data.
+- Internet connectivity to communicate with the Unleash API.
+- Secure storage for credentials via Script Properties.
 
-- API rate limits apply based on your Unleash plan
-- Processing time increases with the number of cells
-- Maximum cell content length is determined by Unleash API limits
+## Common Issues and Resolutions
 
-## Troubleshooting
+- **Invalid Credentials**: Ensure your API key and account details are correctly configured in the Setup menu.
+- **Invalid Input**: Verify that you’ve selected appropriate cells for processing.
+- **Column Errors**: Ensure the specified column uses valid alphabetic letters (A-Z).
 
-If you encounter issues:
+## Data Protection
 
-1. Verify your credentials in the Setup
-2. Check if you have selected valid input cells
-3. Ensure the target column is a valid letter (A-Z)
-4. Check the browser console for detailed error messages
+Your Unleash credentials are securely stored in Google’s Script Properties, ensuring they are only accessible within the spreadsheet where the script is active.
 
-## Security Note
+## Feedback and Contributions
 
-Your Unleash credentials are stored securely in Google's Script Properties and are only accessible within your spreadsheet.
-
-## Contributing
-
-Feel free to submit issues and enhancement requests through the GitHub repository.
+Got suggestions or issues? Share your ideas or report bugs through the GitHub repository.
