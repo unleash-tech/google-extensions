@@ -2,6 +2,11 @@
 
 Effortlessly integrate Unleash AI assistants with Google Sheets using this Google Apps Script, enabling you to process cell content directly through Unleash's AI capabilities.
 
+### Key Capabilities
+
+- **Process Multiple Cells**: Handle multiple cells in a single operation effortlessly.
+- **Error Notifications**: Receive detailed error messages to quickly identify and resolve issues.
+
 ## Installation
 
 1. Copy the content of `unleash-apps-script.js`.
@@ -29,11 +34,6 @@ Before using the script, set up your Unleash credentials:
    - **Question Column**: The column containing your questions (e.g., "A").
    - **Assistant ID**: Optional parameter for specifying a specific assistant.
 
-### Key Capabilities
-
-- **Process Multiple Cells**: Handle multiple cells in a single operation effortlessly.
-- **Error Notifications**: Receive detailed error messages to quickly identify and resolve issues.
-
 ## Prerequisites
 
 To use the script, you’ll need:
@@ -59,7 +59,3 @@ This script requires the following permissions to function:
 ## Data Protection
 
 Your Unleash credentials are securely stored in Google’s Script Properties, ensuring they are only accessible within the spreadsheet where the script is active.
-
-## Feedback and Contributions
-
-Got suggestions or issues? Share your ideas or report bugs through the GitHub repository.
