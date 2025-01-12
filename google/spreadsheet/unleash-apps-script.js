@@ -31,7 +31,7 @@ function showSetupDialog() {
   }
 }
 
-function UNLEASH(columnLetter, assistantId) {
+function UNLEASH(assistantId, columnLetter) {
   const docProperties = PropertiesService.getDocumentProperties();
   const token = docProperties.getProperty("apiToken");
   const unleashAccount = docProperties.getProperty("unleashAccount");
