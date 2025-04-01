@@ -24,7 +24,6 @@ Before using the script, set up your Unleash credentials:
 1. Click on the new "Unleash" option in the spreadsheet menu.
 2. Click on "Setup" from the dropdown menu.
 3. Input the following details:
-   - **Unleash Account**
    - **Unleash API Key** (generate one at [Unleash API Key](https://app.unleash.so/settings/api-key))
 
 ## How to Use
@@ -52,7 +51,7 @@ This script requires the following permissions to function:
 
 ## Common Issues and Resolutions
 
-- **Invalid Credentials**: Ensure your API key and account details are correctly configured in the Setup menu.
+- **Invalid Credentials**: Ensure your API key is  correctly configured in the Setup menu.
 - **Invalid Input**: Verify that you’ve selected appropriate cells for processing.
 - **Column Errors**: Ensure the specified column uses valid alphabetic letters (A-Z).
 
