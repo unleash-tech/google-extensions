@@ -19,7 +19,7 @@ function showSetupDialog() {
   }
 }
 
-function UNLEASH(assistantId, columnLetter) {
+function UNLEASH(columnLetter, assistantId) {
   const docProperties = PropertiesService.getDocumentProperties();
   const token = docProperties.getProperty("apiToken");
 

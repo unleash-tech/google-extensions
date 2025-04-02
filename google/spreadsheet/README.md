@@ -30,8 +30,8 @@ Before using the script, set up your Unleash credentials:
 
 1. Select the cells you want to process
 2. Call the `UNLEASH()` function with the following arguments:
-   - **Assistant ID**: Optional parameter for specifying a specific assistant.
    - **Question Column**: The column containing your questions (e.g., "A").
+   - **Assistant ID**: Optional parameter for specifying a specific assistant.
 
 ## Prerequisites
 
