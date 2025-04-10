@@ -23,7 +23,7 @@ Before using the script, set up your Unleash credentials:
 
 1. Click on the new "Unleash" option in the spreadsheet menu.
 2. Click on "Setup" from the dropdown menu.
-3. Input your Unleash API Key (generate a Non-Impersonated key at [Unleash API Key](https://app.unleash.so/settings/api-key))
+3. Input your Unleash API Key (generate a Non-Impersonated key at [Unleash API Key](https://app.unleash.so/admin/api-keys))
 
 ## How to Use
 
